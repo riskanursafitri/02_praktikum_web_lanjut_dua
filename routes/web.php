@@ -20,4 +20,6 @@ use App\Http\Controllers\ArticleController;
 //    return view('welcome');
 //});
 
-Route::get('/', [HomeController::class, 'index']);
+//Route::get('/', [HomeController::class, 'index']);
+
+Route::get('/about', [AboutController::class, 'about']);
